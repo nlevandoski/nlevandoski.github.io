@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d8d8d8;
+}
+
+.site-header {
+    width: 100%;
+    height: 400px;
+    background-image: url("img/pattern.jpg");
+    position: relative;
+}
+
+.banner {
+    background: #f7f7f7;
+    border-bottom: 3px solid #000;
+}
+
+.banner__logo {
+    float: left;
+}
+.banner__nav {
+    float: right;
+}
+
+.banner__nav-links {
+    list-style-type: none;
+    margin: 0;
+}
+
+.banner__nav__link {
+    float: left;
+    display: block;
+}
+
+.banner__nav__link a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: 0.825em;
+    
+}
+
+.banner__nav__link a:hover,
+.banner__nav__link a:foucs{
+    color: #ff008a
